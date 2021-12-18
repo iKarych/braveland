@@ -11,7 +11,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "Mission3.md"
+        "Mission3.md",
+        "Mission4.md"
     ],
     "testFiles": [
         "test.ts"
