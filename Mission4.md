@@ -9,7 +9,7 @@ Good job on the previous one! Now, let's figure out how to make Rotoy move
 
 ## Step 1
 
-For this one, you will need to blocks:
+For this one, you will need two blocks:
 - ``||maqueen:move||`` to start and stop motors,
 - ``||basic:pause||`` to set how long motors should run.
 

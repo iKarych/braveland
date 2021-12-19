@@ -5,14 +5,16 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.7.0"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "Mission3.md",
-        "Mission4.md"
+        "Mission4.md",
+        "Mission5.md"
     ],
     "testFiles": [
         "test.ts"
