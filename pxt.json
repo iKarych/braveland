@@ -14,7 +14,8 @@
         "README.md",
         "Mission3.md",
         "Mission4.md",
-        "Mission5.md"
+        "Mission5.md",
+        "Mission6.md"
     ],
     "testFiles": [
         "test.ts"
