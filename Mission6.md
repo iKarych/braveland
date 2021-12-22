@@ -1,4 +1,4 @@
-# Mission 7
+# Mission 6
 ```package
 maqueen=github:dfrobot/pxt-maqueen
 ```
