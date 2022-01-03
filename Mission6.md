@@ -15,7 +15,6 @@ You are going to continue where you finished last time:
 let distance = 0
 basic.forever(function () {
     distance = maqueen.Ultrasonic(PingUnit.Centimeters)
-    basic.showNumber(distance)
     if (distance > 10) {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 50)
     } else {

@@ -75,15 +75,13 @@ basic.forever(function () {
 Finally, you are ready to combine all the new stuff that you've learned.
 
 1. Create ``||variable:distance||`` and ``||variable:set||`` it to store information from the ultrasonic sensor.
-2. Display what is the value of ``||variable:distance||``
-3. Create ``||logic:if||`` statement that checks if ``||variable:distance||`` is bigger than 10 cm, ``||logic:then||`` allow Rotoy to slowly move forward.
-4. Otherwise, ``||logic:else||``, make Rotoy stop.
+2. Create ``||logic:if||`` statement that checks if ``||variable:distance||`` is bigger than 10 cm, ``||logic:then||`` allow Rotoy to slowly move forward.
+3. Otherwise, ``||logic:else||``, make Rotoy stop.
 
 ```blocks
 let distance = 0
 basic.forever(function () {
     distance = maqueen.Ultrasonic(PingUnit.Centimeters)
-    basic.showNumber(distance)
     if (distance > 10) {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 50)
     } else {
