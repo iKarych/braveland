@@ -83,7 +83,7 @@ Now, create 2 more functions - to ``||functions:turnLeft||`` and ``||functions:t
 
 Finally, replace your previous code with the functions to solve the maze.
 
-Here's first few lines:
+Here are the first few lines:
 ```blocks
 function goStraight () {
 }
